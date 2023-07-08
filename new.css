@@ -1,0 +1,39 @@
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    padding-bottom: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: -40px;
+    /* margin-bottom: 130px; */
+    
+}
+.card-img-top{
+    border-radius: 20px;
+    padding: 10px;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transition: 1s;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 60px 40px -7px;
+}
+.card-body{
+    padding: 25px;
+    margin-top: -15px;
+}
+.btn-primary{
+    border-radius: 50px;
+}
+.btn-primary:hover{
+    background: black;
+}
+
+.row::-webkit-scrollbar{
+    width: 0;
+}
